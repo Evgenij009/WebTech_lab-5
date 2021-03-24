@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-size: 16px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+
+/*  Container
+==================*/
+
+.container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0;
+    padding: 15px;
+}
+
+header {
+    font-size: 25px;
+    margin: 20px 0;
+    padding: 5px 5px;
+    border: 1px black solid;
+    text-align: center;
+}
+
+.basic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+    background-color: rgba(238, 255, 0, 0.986);
+    border: black 2px solid;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn {}
