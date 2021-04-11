@@ -51,4 +51,6 @@ header {
     text-align: center;
 }
 
-.btn {}
+.btn {
+    background-color: rgba(26, 147, 191, 0.694);
+}
