@@ -1,5 +1,5 @@
 <?php
-include("workCalendar.php");
+//include("workCalendar.php");
 ?>
 
 <!DOCTYPE html>
@@ -15,26 +15,66 @@ include("workCalendar.php");
 
 <body>
 
-    <header>
-        Work MySQL
-    </header>
-
-    <div class="basic">
-        <div class="container">
-
-            <form action="index.php" method="POST" enctype="multipart/form-data">
-                <input type="text" name="" required>
-                <button class="btn" type="submit">Submit</button>
-            </form>
-
-        </div>
+    <div class="month">
+        <ul>
+            <li class="prev">❮</li>
+            <li class="next">❯</li>
+            <li>
+                May<br>
+                <span style="font-size:18px">2021</span>
+            </li>
+        </ul>
     </div>
 
-    <?php
+    <ul class="weekdays">
+        <li>Mo</li>
+        <li>Tu</li>
+        <li>We</li>
+        <li>Th</li>
+        <li>Fr</li>
+        <li>Sa</li>
+        <li>Su</li>
+    </ul>
 
-
-
-    ?>
+    <ul class="days">
+        <li>27</li>
+        <li>28</li>
+        <li>29</li>
+        <li>30</li>
+        <li>31</li>
+        <li><span class="active">
+                <a href="">1</a>
+            </span></li>
+        <li><span class="active">2</span></li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li><span class="active">9</span></li>
+        <li>10</li>
+        <li><span class="active">11</span></li>
+        <li>12</li>
+        <li>13</li>
+        <li>14</li>
+        <li>15</li>
+        <li>16</li>
+        <li>17</li>
+        <li>18</li>
+        <li>19</li>
+        <li>20</li>
+        <li>21</li>
+        <li>22</li>
+        <li>23</li>
+        <li>24</li>
+        <li>25</li>
+        <li>26</li>
+        <li>27</li>
+        <li>28</li>
+        <li>29</li>
+        <li>30</li>
+    </ul>
 
 </body>
 
