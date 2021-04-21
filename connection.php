@@ -2,4 +2,4 @@
 $host = 'localhost'; // адрес сервера 
 $database = 'news'; // имя базы данных
 $user = 'root'; // имя пользователя
-$password = '1234567'; // пароль
+$password = ''; // пароль
